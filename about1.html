@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to FITBUILD-All your fitness needs</title>
+<link href="./css/style.css" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to FITBUILD-All your fitness needs</title>
+<link href="./css/style.css" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+<!--    Header section--->
+
+
+
+
+
+<!-----banner-------->
+
+<div class="aboutus">
+  <h1 class="heading ">About Us</h1>
+   <div class="aboutusdetails">
+    <div class="image">
+  <img src="./img/Commercial0616.jpg"  alt="">
+   </div>
+   <div class="content">
+    <h3>Health we care for all</h3>
+    <p>We are the leading fitness organisation for all your health fitness needs</p>
+    
+    </div>
+  </div>
+  </div>
+  <div class="contactus" >
+    <h1 class="heading ">Contact Us</h1>
+     <div class="aboutusdetails">
+      <div class="image">
+    <img src="./img/maps.jpg"  alt="">
+     </div>
+     <div class="content">
+      <h3>Please mention your contact details.</h3>
+      <form class="contactdetail" action="./index.html">
+        <label for="text">Full name:</label><br>
+        <input type="text" id="Fname" name="Fname" ><br>
+        <label for="Email">Email:</label><br>
+        <input type="email" id="Email" name="Email" ><br>
+        <label for="text">Contact no:</label><br>
+        <input type="number" id="Number" name="Number" ><br><br>
+        <input type="submit" id="subbtn" value="Submit">
+      </form> 
+    
+      </div>
+    </div>
+    </div>
+<!-----footer-------->
+  <div class="footer">
+
+    <div class="address">
+      <h3>Address</h3>
+      <p>13/14 Aungier Street,</br>
+        Dublin 2,</br>
+        D02 WC04,</br>
+        Ireland.</br>
+        
+        T: +353 842342463</br>
+        E: info@fitbuild.ie</p>
+    </div>
+    <div class="Socialmedia">
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-youtube"></a>
+    <a href="#" class="fa fa-instagram"></a>
+    </div>
+    <div class="copyright">
+      <p>Copyright © 2022</p>
+    </div>
+    </div>
+    <!--  JS file  -->
+<script src="./js/script.js"></script>
+<script>
+document.getElementById("subbtn").onclick = function() {submit()};
+function submit() {
+alert("Submited successfully.");
+alert("Redirecting to home page..");
+}  
+</script>
+ 
+        
+</body>
+
+</html>
+
+
+
+CSS
+
+body .contactus {
+  margin: 10px;    
+}
+body .contactus .heading{
+  text-align: center;
+  text-transform: uppercase;
+  color: red;
+  font-size: 3.5rem;
+}
+/* footer class ends here*/
+body .contactus .aboutusdetails{
+  display: flex;
+  align-items: center;
+  background: grey;
+  flex-wrap: wrap;
+  height: 600px;
+}
+body .contactus .aboutusdetails .image {
+  flex: 1 50%;
+  padding: 20px;
+}
+body .contactus .aboutusdetails .image img{
+  width: 100%;
+  height: 500px;
+  border: 3px solid #003c14;
+  border-radius: 10px;
+}
+body .contactus .aboutusdetails .content{
+  flex: 1 50%;
+  padding: 2rem;
+}
+
+
+body .footer{
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  background: grey;
+  position: relative;
+  height: 250px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+body .footer .Socialmedia{
+  margin-left: 1000px;
+}
+body .footer .Socialmedia a{
+  margin-left: 20px;
+  display: inline-block;
+}
+body .footer  h3{
+  color: white;
+  text-decoration: underline;
+}
+body .footer  p{
+  font-weight: 300;
+}
+body .footer .copyright  p{
+  text-align: center;
+  margin-left: 700px;
+  font-weight: 300;
+}
+
+/* Social media buttons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}  
+

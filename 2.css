@@ -1,0 +1,181 @@
+CSS
+
+body .aboutus {
+  margin: 10px;
+}
+
+body .aboutus .heading{
+  text-align: center;
+  text-transform: uppercase;
+  color: red;
+  font-size: 3.5rem;
+}
+
+body .aboutus .aboutusdetails{
+  display: flex;
+  background:grey;
+  flex-wrap: wrap;
+  height: 600px;
+  align-items: center;
+}
+body .aboutus .cartdetails{
+  display: flex;
+  background:grey;
+  align-items: center;
+  height: 75px;
+  
+}
+body .aboutus .cartdetails h3{
+  text-decoration: underline;
+  align-items: center;
+  
+}
+body .aboutus .aboutusdetails .image {
+  flex: 1 1;
+  padding: 20px;
+}
+body .aboutus .aboutusdetails .image img{
+  width: 100%;
+  height: 500px;
+  border: 3px solid #003c14;
+  border-radius: 10px;
+}
+body .aboutus .aboutusdetails .content{
+  flex: 1 1;
+  padding: 2rem;
+}
+body .aboutus .aboutusdetails .content h3{
+  font-size: 2rem;
+  color: red;
+}
+body .aboutus .aboutusdetails .content p{
+  font-size: 1.6rem;
+  color: black;
+}
+body .aboutus .aboutusdetails .content a{
+  font-size: 1.6rem;
+  color: black;
+}
+
+body .services {
+  margin: 10px;
+ }
+body .services .row{
+  display: flex;
+  align-items: center;
+  background: grey;
+  position: relative;
+  height: 400px;
+  padding: 20px;
+}
+
+body .services .row .image1{
+  
+  overflow: hidden;
+  border: 3px solid black;
+  width: 32%;
+  border-radius: 10px;
+  margin-left: 20px;
+  height: auto;
+}
+/* Services class ends here*/
+
+
+
+CSS
+
+body .contactus {
+  margin: 10px;    
+}
+body .contactus .heading{
+  text-align: center;
+  text-transform: uppercase;
+  color: red;
+  font-size: 3.5rem;
+}
+/* footer class ends here*/
+body .contactus .aboutusdetails{
+  display: flex;
+  align-items: center;
+  background: grey;
+  flex-wrap: wrap;
+  height: 600px;
+}
+body .contactus .aboutusdetails .image {
+  flex: 1 50%;
+  padding: 20px;
+}
+body .contactus .aboutusdetails .image img{
+  width: 100%;
+  height: 500px;
+  border: 3px solid #003c14;
+  border-radius: 10px;
+}
+body .contactus .aboutusdetails .content{
+  flex: 1 50%;
+  padding: 2rem;
+}
+
+
+body .footer{
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  background: grey;
+  position: relative;
+  height: 250px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+body .footer .Socialmedia{
+  margin-left: 1000px;
+}
+body .footer .Socialmedia a{
+  margin-left: 20px;
+  display: inline-block;
+}
+body .footer  h3{
+  color: white;
+  text-decoration: underline;
+}
+body .footer  p{
+  font-weight: 300;
+}
+body .footer .copyright  p{
+  text-align: center;
+  margin-left: 700px;
+  font-weight: 300;
+}
+
+/* Social media buttons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}  
